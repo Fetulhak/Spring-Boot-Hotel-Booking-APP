@@ -1,14 +1,3 @@
-#server:
-#  port: 9192
-#spring:
-#  application:
-#    name: BLITCoding
-#  datasource:
-#    username: root
-#    password: Emamudin7013@
-#    url: jdbc:mysql://hoteldb:3306/hotel_db
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-
 spring:
   application:
     name: BLITCoding
