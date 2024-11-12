@@ -14,7 +14,7 @@ spring:
     name: BLITCoding
   datasource:
     username: ${MYSQL_USER:root}
-    password: ${MYSQL_PASSWORD:Emamudin7013@}
+    password: ${MYSQL_PASSWORD:root}
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB_NAME:todo_db}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
