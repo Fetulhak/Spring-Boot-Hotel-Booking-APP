@@ -27,5 +27,8 @@ This project is a Hotel Booking System built using **Spring Boot**, **Spring Sec
 ```bash
 git clone https://github.com/yourusername/hotel-booking-system.git
 cd hotel-booking-system
+```
 
-### 1. Clone the repository
+## 2. Setup MySQL Database
+
+Create a MySQL database named hotel_db and configure the database connection in src/main/resources/application.properties
