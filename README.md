@@ -29,7 +29,6 @@ git clone https://github.com/yourusername/hotel-booking-system.git
 cd hotel-booking-system
 
 
-### 2. Setup MySQL Database
 
 
 
