@@ -41,7 +41,3 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 
 
-- **JWT**: For secure token-based authentication.
-- **MySQL**: For data storage.
-- **BCryptPasswordEncoder**: For password encryption.
-- **Lombok**: For boilerplate code reduction (Getters, Setters, Constructors).
