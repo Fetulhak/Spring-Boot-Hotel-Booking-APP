@@ -28,9 +28,4 @@ This project is a Hotel Booking System built using **Spring Boot**, **Spring Sec
 git clone https://github.com/yourusername/hotel-booking-system.git
 cd hotel-booking-system
 
-
-
-
-
-
-
+### 1. Clone the repository
