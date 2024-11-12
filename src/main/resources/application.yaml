@@ -1,0 +1,47 @@
+#server:
+#  port: 9192
+#spring:
+#  application:
+#    name: BLITCoding
+#  datasource:
+#    username: root
+#    password: Emamudin7013@
+#    url: jdbc:mysql://hoteldb:3306/hotel_db
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+spring:
+  application:
+    name: BLITCoding
+  datasource:
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:Emamudin7013@}
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB_NAME:todo_db}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      dialect: org.hibernate.dialect.MySQL8Dialect
+#      #format_sql: true
+
+
+
+
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+#      file-size-threshold: 2KB
+#      enabled: true
+jwt:
+  secret: rRaAQAHZ4J0PN/fa6H8gTRYqr5n/eWa9ADqh8jwzBqY=
+  expiration: 900000
