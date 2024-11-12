@@ -35,7 +35,7 @@ Create a MySQL database named hotel_db and configure the database connection in 
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/hotel_db
 spring.datasource.username=fetu
-spring.datasource.password=Emamudin7013@
+spring.datasource.password={put your root password for for sql database configuration here}
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
