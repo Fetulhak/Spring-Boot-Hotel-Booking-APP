@@ -31,13 +31,7 @@ cd hotel-booking-system
 
 ### 2. Setup MySQL Database
 
-Create a MySQL database named hotel_db and configure the database connection in src/main/resources/application.properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/hotel_db
-spring.datasource.username=fetu
-spring.datasource.password=Emamudin7013@
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
 
 
